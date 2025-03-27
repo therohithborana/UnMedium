@@ -1,4 +1,4 @@
-# FreeMedium - Chrome Extension
+# UnMedium - Chrome Extension
 
 ## 📌 Overview
 
