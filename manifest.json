@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Medium Freedium Redirect",
+    "version": "1.0",
+    "description": "Redirects Medium articles to Freedium to bypass paywalls.",
+    "permissions": ["tabs"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "host_permissions": ["*://medium.com/*"],
+    "action": {
+      "default_title": "Open in Freedium"
+    },
+    "icons": {
+      "128": "icon.png"
+    }
+  }
+  
